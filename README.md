@@ -13,5 +13,7 @@ EmberScan is a company dedicated to utilizing AI imaging technology for the vita
 EmberScan is trained off the following data deck
 [House Fires Data Deck](https://docs.google.com/presentation/d/1FMFFaQ2mH5CjzEbom0rSkPAUsbNTiWbb9yrRzbhVGGY/edit#slide=id.g206f8279a60_0_0)
 
+## Working Model
+[working model](https://colab.research.google.com/drive/1pFjAZAxK_rtj0g7iHVnzXaRSbNexpw0w?usp=sharing)
 ## Yolo Example
 ![yolo example](blob:https://colab.research.google.com/9fe5062b-7825-4584-b849-1c9ce457e4bd)
