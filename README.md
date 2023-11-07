@@ -16,5 +16,5 @@ EmberScan is trained off the following data deck
 ## Working Model utilizing Alexnet
 [working model](https://colab.research.google.com/drive/1pFjAZAxK_rtj0g7iHVnzXaRSbNexpw0w?usp=sharing)
 ## Yolo Example image and code link
-![yolo example](blob:https://colab.research.google.com/9fe5062b-7825-4584-b849-1c9ce457e4bd)
+![yolo example](https://github.com/JohnMansfield23/EmberScan/blob/main/EmberScan%20Icon.png?raw=true)
 [Yolo Model Link](https://colab.research.google.com/drive/1w4r-sHo3AsEz7c60bI-0RdPIVZE3LOL_?usp=sharing)
