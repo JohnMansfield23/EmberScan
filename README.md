@@ -8,7 +8,8 @@ EmberScan is a company dedicated to utilizing AI imaging technology for the vita
 
 ## What EmberScan is trained to differentiate
 ![House on fire](https://www.wkrn.com/wp-content/uploads/sites/73/2021/07/thumbnail_image2.jpg) ![Normal House](https://images.ctfassets.net/n2ifzifcqscw/3HyfuHM3kAP4uLFkVYJimW/ba13d734701b3260c92376115b410c81/farmhouse.png)
-
+## Structure of an Alexnet
+![Alexnet](https://i0.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/12/alexnet.png?resize=623%2C302&ssl=1)
 ### What is EmberScan trained off of
 EmberScan is trained off the following data deck
 [House Fires Data Deck](https://docs.google.com/presentation/d/1FMFFaQ2mH5CjzEbom0rSkPAUsbNTiWbb9yrRzbhVGGY/edit#slide=id.g206f8279a60_0_0)
