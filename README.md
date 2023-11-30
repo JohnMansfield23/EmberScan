@@ -19,3 +19,6 @@ EmberScan is trained off the following data deck
 ## Yolo Example image and code link
 ![yolo example](https://github.com/JohnMansfield23/EmberScan/blob/main/yolo%20example.jpg?raw=true)
 [Yolo Model Link](https://colab.research.google.com/drive/1w4r-sHo3AsEz7c60bI-0RdPIVZE3LOL_?usp=sharing)
+
+## LLava Test
+![Llava Test](https://github.com/JohnMansfield23/EmberScan/blob/main/LLaVA%20photo%20test.png)
