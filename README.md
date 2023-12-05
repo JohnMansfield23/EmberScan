@@ -16,7 +16,7 @@ EmberScan is trained off the following data deck
 ## Filters and Feature Maps
 ![Filters and Feature Map](https://github.com/JohnMansfield23/EmberScan/blob/main/filters%20and%20feature%20maps.png?raw=true)
 ## Training accuracy and loss
-[train and loss](https://github.com/JohnMansfield23/EmberScan/blob/main/Alexnet%20loss%20and%20training%20data.png?raw=true)
+![train and loss](https://github.com/JohnMansfield23/EmberScan/blob/main/Alexnet%20loss%20and%20training%20data.png?raw=true)
 ## Working Model utilizing Alexnet
 [working model](https://colab.research.google.com/drive/1pFjAZAxK_rtj0g7iHVnzXaRSbNexpw0w?usp=sharing)
 ## Yolo Example image and code link
