@@ -17,8 +17,61 @@ EmberScan is trained off the following data deck
 ![Filters and Feature Map](https://github.com/JohnMansfield23/EmberScan/blob/main/filters%20and%20feature%20maps.png?raw=true)
 ## Training accuracy and loss
 ![train and loss](https://github.com/JohnMansfield23/EmberScan/blob/main/Alexnet%20loss%20and%20training%20data.png?raw=true)
-## Working Model utilizing Alexnet
-[working model](https://colab.research.google.com/drive/1pFjAZAxK_rtj0g7iHVnzXaRSbNexpw0w?usp=sharing)
+## Working Model utilizing Alexnet and explanation of code
+[working model & high level explanation](https://colab.research.google.com/drive/1pFjAZAxK_rtj0g7iHVnzXaRSbNexpw0w?usp=sharing)
+Introduction
+
+### Code Overview
+
+The provided code performs several tasks and utilizes various Python libraries to achieve its objectives. Here's a high-level overview of the code's functionality:
+
+### Importing Libraries
+
+The code starts by importing necessary Python libraries, including wandb for experiment tracking, pdf2image for PDF to image conversion, and torch for deep learning functionalities. Additionally, it imports pre-trained models from torchvision.models and other utilities.
+
+###GPU Setup
+
+The code checks for the availability of a GPU and assigns the computing device accordingly. This is important for leveraging GPU acceleration in deep learning tasks, which can significantly speed up model training.
+
+### Utility Functions
+
+Several utility functions are defined to simplify various tasks within the code, such as data preprocessing, plotting, and random data generation. These functions enhance code readability and maintainability.
+
+### Loading a Pretrained AlexNet Model
+
+A pretrained AlexNet model is loaded using the torchvision.models.alexnet function. This model is a deep convolutional neural network designed for image classification tasks and is known for its effectiveness in such applications.
+
+### Loading and Preprocessing Images
+
+The code retrieves slides from a Google Slides URL and converts them into images. These images are then preprocessed and loaded into PyTorch tensors for use with the AlexNet model. This step prepares the data for classification.
+
+### Making Predictions
+
+The pretrained AlexNet model is employed to make predictions (classifications) on the preprocessed images. The model's predictions are based on its understanding of the features present in the images.
+
+### Handling Predicted Labels
+
+The code extracts the predicted class labels from the model's output and prints them. These labels are mapped to meaningful categories using the ImageNet labels provided in the code.
+
+### Creating Training Data
+
+The code creates training data (X and Y) for a linear model. The data consists of 50 images divided into two classes, with 25 images in each class. One set is of houses on fire, and the other houses not on fire.
+
+### Defining Softmax and Cross-Entropy Functions
+
+Functions for calculating softmax and cross-entropy loss are defined. These are fundamental components for training and evaluating classification models.
+
+### Generating Random Data
+
+The code includes functions for generating random data, particularly truncated normal random numbers and a truncated normal distribution. These functions might be used for data augmentation or synthetic data generation.
+
+### Training a Linear Model
+
+The code initializes hyperparameters and weight matrices for a linear model. It then uses the Adam optimizer to train the linear model for a specified number of epochs. During training, loss and accuracy metrics are logged and tracked using Weights and Biases (wandb).
+
+### Experiment Tracking with Weights and Biases (wandb)
+
+Throughout the training process, the code uses Weights and Biases (wandb) to log and visualize training progress. This includes tracking loss and accuracy to monitor how the linear model is learning from the data.
 ## Yolo Example image and code link
 ![yolo example](https://github.com/JohnMansfield23/EmberScan/blob/main/yolo%20example.jpg?raw=true)
 [Yolo Model Link](https://colab.research.google.com/drive/1w4r-sHo3AsEz7c60bI-0RdPIVZE3LOL_?usp=sharing)
