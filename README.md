@@ -29,7 +29,7 @@ The provided code performs several tasks and utilizes various Python libraries t
 
 The code starts by importing necessary Python libraries, including wandb for experiment tracking, pdf2image for PDF to image conversion, and torch for deep learning functionalities. Additionally, it imports pre-trained models from torchvision.models and other utilities.
 
-###GPU Setup
+### GPU Setup
 
 The code checks for the availability of a GPU and assigns the computing device accordingly. This is important for leveraging GPU acceleration in deep learning tasks, which can significantly speed up model training.
 
