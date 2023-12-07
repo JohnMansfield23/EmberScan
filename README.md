@@ -12,7 +12,7 @@ Every Year 358,300 homes have uncontrolled fires. EmberScan is a company dedicat
 ![Alexnet](https://i0.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/12/alexnet.png?resize=623%2C302&ssl=1)
 
 Alexnet's consist of an input layer which takes an RGB image input with the dimensions 227x227.
-Alexnets then have 5 convolutional layers which use filters to extract features from the image input. There are max pooling layers after the first and second convolutional layers which reduce the spatial dimensions of the feature maps while keeping the most important information. There are then 2 fully connected hidden layers which are a traditional neural network. The final layer is a third fully connected layer which is the softmax layer which produces a probablity distribuition of possible classifications, and then the softmax layer provides and output of the predicted class label for the image.
+Alexnets then have 5 convolutional layers which use filters to extract features from the image input. There are max pooling layers after the first and second convolutional layers which reduce the spatial dimensions of the feature maps while keeping the most important information. There are then 2 fully connected hidden layers which are a traditional neural network. The final layer is a third fully connected layer which is the softmax layer which produces a probablity distribuition of possible classifications, and then the softmax layer provides an output of the predicted class label for the image.
 ### What is EmberScan trained off of
 EmberScan is trained off the following data deck
 [House Fires Data Deck](https://docs.google.com/presentation/d/1FMFFaQ2mH5CjzEbom0rSkPAUsbNTiWbb9yrRzbhVGGY/edit#slide=id.g206f8279a60_0_0)
