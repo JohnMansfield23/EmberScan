@@ -18,7 +18,7 @@ EmberScan is trained off the following data deck
 ## Training accuracy and loss
 ![train and loss](https://github.com/JohnMansfield23/EmberScan/blob/main/Alexnet%20loss%20and%20training%20data.png?raw=true)
 ## Working Model utilizing Alexnet and explanation of code
-[working model & high level explanation](https://colab.research.google.com/drive/1pFjAZAxK_rtj0g7iHVnzXaRSbNexpw0w?usp=sharing)
+[working model](https://colab.research.google.com/drive/1pFjAZAxK_rtj0g7iHVnzXaRSbNexpw0w?usp=sharing)
 Introduction
 
 ### Code Overview
