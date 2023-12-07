@@ -82,4 +82,4 @@ Throughout the training process, the code uses Weights and Biases (wandb) to log
 ## LLava Test
 ![Llava Test](https://github.com/JohnMansfield23/EmberScan/blob/main/LLaVA%20photo%20test.png)
 
-It can be seen that LLava will make up information if it does not undesstand everything about the photo. Llava was however able to identify that the house was on fire.
+It can be seen that LLava will make up information if it does not understand everything about the photo. Llava was however able to identify that the house was on fire.
