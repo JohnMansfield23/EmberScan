@@ -4,12 +4,15 @@ A project by John Mansfield
 ### EmberScan's Mission
 EmberScan is developed with the idea of using A.I image processing to identify housefires using the Alexnet.
 
-EmberScan is a company dedicated to utilizing AI imaging technology for the vital task of identifying house fires. This approach holds significant importance because traditional smoke detectors can sometimes fail, leaving homes vulnerable to fires. EmberScan's mission is to offer a fail-safe solution to this problem by enabling home security cameras, or development cameras to detect house fires and promptly alert the appropriate authorities. This innovative use of AI image processing not only enhances fire safety but also ensures a more reliable and proactive response to fire threats, potentially saving lives and property.
+Every Year 358,300 homes have uncontrolled fires. EmberScan is a company dedicated to utilizing AI imaging technology for the vital task of identifying house fires and preventing housefires. No system is without its flaws and devices such smoke detectors can fail due to things such as neglect of maintance such as changing batteries, all the way to manufacturing issues. EmberScan's mission is to offer a fail-safe solution to this problem by enabling home security cameras, or housing development cameras to detect house fires and promptly alert the appropriate authorities. This innovative use of AI image processing not only enhances fire safety but also ensures a more reliable and proactive response to fires, potentially saving lives and property.
 
 ## What EmberScan is trained to differentiate
 ![House on fire](https://www.wkrn.com/wp-content/uploads/sites/73/2021/07/thumbnail_image2.jpg) ![Normal House](https://images.ctfassets.net/n2ifzifcqscw/3HyfuHM3kAP4uLFkVYJimW/ba13d734701b3260c92376115b410c81/farmhouse.png)
 ## Structure of an Alexnet
 ![Alexnet](https://i0.wp.com/thecleverprogrammer.com/wp-content/uploads/2021/12/alexnet.png?resize=623%2C302&ssl=1)
+
+Alexnet's consist of an input layer which takes an RGB image input with the dimensions 227x227.
+Alexnets then have 5 convolutional layers which use filters to extract features from the image input. There are max pooling layers after the first and second convolutional layers which reduce the spatial dimensions of the feature maps while keeping the most important information. There are then 2 fully connected hidden layers which are a traditional neural network. The final layer is a third fully connected layer which is the softmax layer which produces a probablity distribuition of possible classifications, and then the softmax layer provides and output of the predicted class label for the image.
 ### What is EmberScan trained off of
 EmberScan is trained off the following data deck
 [House Fires Data Deck](https://docs.google.com/presentation/d/1FMFFaQ2mH5CjzEbom0rSkPAUsbNTiWbb9yrRzbhVGGY/edit#slide=id.g206f8279a60_0_0)
