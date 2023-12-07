@@ -16,7 +16,7 @@ Alexnets then have 5 convolutional layers which use filters to extract features 
 ### What is EmberScan trained off of
 EmberScan is trained off the following data deck
 [House Fires Data Deck](https://docs.google.com/presentation/d/1FMFFaQ2mH5CjzEbom0rSkPAUsbNTiWbb9yrRzbhVGGY/edit#slide=id.g206f8279a60_0_0)
-## Filters and Feature Maps
+## Feature Maps
 ![Filters and Feature Map](https://github.com/JohnMansfield23/EmberScan/blob/main/filters%20and%20feature%20maps.png?raw=true)
 # Training accuracy and loss
 ![train and loss](https://github.com/JohnMansfield23/EmberScan/blob/main/Alexnet%20loss%20and%20training%20data.png?raw=true)
